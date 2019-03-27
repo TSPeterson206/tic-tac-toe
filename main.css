@@ -10,3 +10,13 @@ body {
   text-align:center;
 }
 
+table{
+  justify-content: center;
+  margin:0 auto;
+  margin-top:10%;
+}
+
+p {
+  text-align:center;
+  font-size:40px;
+}
