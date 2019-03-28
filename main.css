@@ -20,3 +20,8 @@ p {
   text-align:center;
   font-size:40px;
 }
+
+.square:hover {
+  background-color:grey;
+  transition:.75s;
+}
