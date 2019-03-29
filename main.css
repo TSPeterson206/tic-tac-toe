@@ -1,11 +1,12 @@
 body {
   margin:0 auto;
+  background-color:lightgray;
 }
 
 .square {
   border:1px solid;
-  height:100px;
-  width:100px;
+  height:200px;
+  width:200px;
   font-size:75px;
   text-align:center;
 }
@@ -13,15 +14,22 @@ body {
 table{
   justify-content: center;
   margin:0 auto;
-  margin-top:10%;
 }
 
 p {
   text-align:center;
-  font-size:40px;
+  font-size:80px;
 }
 
 .square:hover {
+  transition:1s;
+  transform: scale(1.5);
   background-color:grey;
-  transition:.75s;
+}
+
+.resetButton{
+margin-top:25px;
+font-size:20px;
+border-radius:20px;
+background-color:lightgray;
 }
